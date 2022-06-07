@@ -4,7 +4,6 @@ info:
   name: ArcGIS Exposed Docs
   author: Podalirius
   severity: info
-  description: ArcGIS documents were discovered.
   reference:
     - https://enterprise.arcgis.com/en/
   classification:
@@ -21,8 +20,6 @@ requests:
       - type: word
         words:
           - 'ArcGIS REST API'
-
-      - type: status
         status:
           - 200
 
